@@ -1,0 +1,18 @@
+{
+  "version": "0.5.0",
+  "build": 6,
+  "minimum_macos": "13.0",
+  "url": "https://github.com/xavier38/sesame/releases/download/v0.5.0/Sesame.zip",
+  "size": 34765082,
+  "sha256": "e17723fd9de0032aceaab5f31e09f17cb9636a0a162b989db5e1a9bc5b141552",
+  "signature": "pKA/ss8uF2JVFLngoWmJoIRxx/NMS8G70nlXtk4q3hhBtrOGpeDShra8tyFY435bLAR5fQWr6WTX4C6yqKoRBQ==",
+  "notes": {
+    "fr": "Sesame se met à jour toute seule ; S3 chiffré et « Déplacer » entre comptes plus sûrs ; tests automatiques de l'app.",
+    "en": "Sesame now updates itself; safer encrypted S3 and cross-account “Move”; automated app tests.",
+    "de": "Sesame aktualisiert sich jetzt selbst; sichereres verschlüsseltes S3 und „Verschieben“ zwischen Konten; automatische App-Tests.",
+    "es": "Sesame se actualiza sola; S3 cifrado y «Mover» entre cuentas más seguros; pruebas automáticas de la app.",
+    "it": "Sesame ora si aggiorna da sola; S3 cifrato e «Sposta» tra account più sicuri; test automatici dell'app.",
+    "nl": "Sesame werkt zichzelf nu bij; veiliger versleutelde S3 en „Verplaatsen” tussen accounts; automatische app-tests.",
+    "pt": "O Sesame agora atualiza-se sozinho; S3 cifrado e «Mover» entre contas mais seguros; testes automáticos da app."
+  }
+}
