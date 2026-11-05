@@ -1,18 +1,18 @@
 {
-  "version": "0.6.0",
-  "build": 10,
+  "version": "0.6.1",
+  "build": 11,
   "minimum_macos": "13.0",
-  "url": "https://github.com/xavier38/sesame/releases/download/v0.6.0/Sesame.zip",
-  "size": 34819814,
-  "sha256": "bc8a26c7eaba6a08c5540c3dae48405a07cdb989f219816622c54386abef444a",
-  "signature": "Prb4EEQFIEYIlcuiNHC9xuPryU1bjvIFtbj7o6PXQ4s6ZF2pxn4w0gWEbCNS5kY59KAIU2lFrTH2L8CO9u7GBg==",
+  "url": "https://github.com/xavier38/sesame/releases/download/v0.6.1/Sesame.zip",
+  "size": 34819929,
+  "sha256": "afe57c905ccfd3cc3133cb177c90e89bb18ba723ed8fbe18edf42b8dfc719b82",
+  "signature": "33hArpJPa9F+9VsWunMQ/2M4tTbGZa98WzmJRO3KfZ2+8oNcoLizdA9zhx5ctZsWJtiP5u+i9JSSCbs1+2BQCg==",
   "notes": {
-    "fr": "Plus rapide : 4 fichiers transférés à la fois. Plus sûr : vos connexions sont gardées dans le Trousseau du Mac.",
-    "en": "Faster: 4 files transferred at a time. Safer: your sign-ins are kept in the Mac Keychain.",
-    "de": "Schneller: 4 Dateien gleichzeitig übertragen. Sicherer: Ihre Anmeldungen liegen im Mac-Schlüsselbund.",
-    "es": "Más rápido: 4 archivos transferidos a la vez. Más seguro: sus conexiones se guardan en el Llavero del Mac.",
-    "it": "Più veloce: 4 file trasferiti alla volta. Più sicuro: i tuoi accessi sono conservati nel Portachiavi del Mac.",
-    "nl": "Sneller: 4 bestanden tegelijk overgezet. Veiliger: uw aanmeldingen staan in de Mac-sleutelhanger.",
-    "pt": "Mais rápido: 4 arquivos transferidos ao mesmo tempo. Mais seguro: suas conexões ficam nas Chaves do Mac."
+    "fr": "Le moteur s'arrête proprement quand vous quittez Sesame ou qu'une mise à jour s'installe.",
+    "en": "The engine now stops cleanly when you quit Sesame or an update installs.",
+    "de": "Die Synchronisierung wird jetzt sauber beendet, wenn Sie Sesame beenden oder ein Update installiert wird.",
+    "es": "El motor se detiene correctamente al salir de Sesame o al instalarse una actualización.",
+    "it": "Il motore ora si arresta correttamente quando esci da Sesame o si installa un aggiornamento.",
+    "nl": "De synchronisatie stopt nu netjes wanneer u Sesame afsluit of een update wordt geïnstalleerd.",
+    "pt": "O mecanismo agora para corretamente ao sair do Sesame ou ao instalar uma atualização."
   }
 }
