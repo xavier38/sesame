@@ -1,18 +1,18 @@
 {
-  "version": "0.5.1",
-  "build": 7,
+  "version": "0.5.2",
+  "build": 8,
   "minimum_macos": "13.0",
-  "url": "https://github.com/xavier38/sesame/releases/download/v0.5.1/Sesame.zip",
-  "size": 34770577,
-  "sha256": "830ed35c2fbc888b62a4b00e62d3f6823c018a4acc654d896d52b246d07caff9",
-  "signature": "CavfJLUD44ZrJE6I1aQE7iBznU5+4Sb5H7hN0BNmB9WHDRc02lELhbmGvXdgGLkqnOr7zYG8CMSpAfcK8otPCQ==",
+  "url": "https://github.com/xavier38/sesame/releases/download/v0.5.2/Sesame.zip",
+  "size": 34770790,
+  "sha256": "414f582423566471e5d674f3f51b47f712aeb93c1cc895b1572961dc1be740d2",
+  "signature": "iwsNqmG/8DpwRtUAq4uK/oi4mCj2j0xODltGrki2bRHm/9fuSDAk5IvZR+0zBwuf/r+JwoIqzUNxFqt1sx/lAA==",
   "notes": {
-    "fr": "Statistiques anonymes pour améliorer Sesame (jamais vos fichiers), désactivables d'un clic dans les Réglages.",
-    "en": "Anonymous statistics to improve Sesame (never your files), can be turned off in one click in Settings.",
-    "de": "Anonyme Statistiken zur Verbesserung von Sesame (niemals deine Dateien), mit einem Klick in den Einstellungen abschaltbar.",
-    "es": "Estadísticas anónimas para mejorar Sesame (nunca tus archivos), desactivables con un clic en Ajustes.",
-    "it": "Statistiche anonime per migliorare Sesame (mai i tuoi file), disattivabili con un clic nelle Impostazioni.",
-    "nl": "Anonieme statistieken om Sesame te verbeteren (nooit je bestanden), met één klik uit te zetten in Instellingen.",
-    "pt": "Estatísticas anónimas para melhorar o Sesame (nunca os seus ficheiros), desativáveis com um clique nas Definições."
+    "fr": "Statistiques anonymes activées au départ (jamais vos fichiers), désactivables d'un clic dans les Réglages.",
+    "en": "Anonymous statistics on by default (never your files), can be turned off in one click in Settings.",
+    "de": "Anonyme Statistiken standardmäßig aktiv (niemals Ihre Dateien), mit einem Klick in den Einstellungen abschaltbar.",
+    "es": "Estadísticas anónimas activadas por defecto (nunca sus archivos), desactivables con un clic en Ajustes.",
+    "it": "Statistiche anonime attive per impostazione predefinita (mai i tuoi file), disattivabili con un clic nelle Impostazioni.",
+    "nl": "Anonieme statistieken standaard aan (nooit uw bestanden), met één klik uit te zetten in Instellingen.",
+    "pt": "Estatísticas anônimas ativadas por padrão (nunca seus arquivos), desativáveis com um clique nos Ajustes."
   }
 }
