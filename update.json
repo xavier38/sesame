@@ -1,18 +1,18 @@
 {
-  "version": "0.5.2",
-  "build": 8,
+  "version": "0.5.3",
+  "build": 9,
   "minimum_macos": "13.0",
-  "url": "https://github.com/xavier38/sesame/releases/download/v0.5.2/Sesame.zip",
-  "size": 34770790,
-  "sha256": "414f582423566471e5d674f3f51b47f712aeb93c1cc895b1572961dc1be740d2",
-  "signature": "iwsNqmG/8DpwRtUAq4uK/oi4mCj2j0xODltGrki2bRHm/9fuSDAk5IvZR+0zBwuf/r+JwoIqzUNxFqt1sx/lAA==",
+  "url": "https://github.com/xavier38/sesame/releases/download/v0.5.3/Sesame.zip",
+  "size": 34780393,
+  "sha256": "4d4dbc8e3763bdaae0fca22e0138315a894675763c0fe863e53ce97db2adece9",
+  "signature": "x3w0EP6nSddD8GK+oBITERrggucNZfncHgLkzGILqjBcA3JGLGT2Jw8Tbp+RvOHI+dj1nhWVGxOozWc92aDOBw==",
   "notes": {
-    "fr": "Statistiques anonymes activées au départ (jamais vos fichiers), désactivables d'un clic dans les Réglages.",
-    "en": "Anonymous statistics on by default (never your files), can be turned off in one click in Settings.",
-    "de": "Anonyme Statistiken standardmäßig aktiv (niemals Ihre Dateien), mit einem Klick in den Einstellungen abschaltbar.",
-    "es": "Estadísticas anónimas activadas por defecto (nunca sus archivos), desactivables con un clic en Ajustes.",
-    "it": "Statistiche anonime attive per impostazione predefinita (mai i tuoi file), disattivabili con un clic nelle Impostazioni.",
-    "nl": "Anonieme statistieken standaard aan (nooit uw bestanden), met één klik uit te zetten in Instellingen.",
-    "pt": "Estatísticas anônimas ativadas por padrão (nunca seus arquivos), desativáveis com um clique nos Ajustes."
+    "fr": "Nouveau : une autre limite de débit la nuit (Réglages › Réseau et énergie), par exemple illimité de 22:00 à 07:00.",
+    "en": "New: a different speed limit at night (Settings › Network & power), for example unlimited from 22:00 to 07:00.",
+    "de": "Neu: eine andere Geschwindigkeitsgrenze in der Nacht (Einstellungen › Netz und Energie), z. B. unbegrenzt von 22:00 bis 07:00.",
+    "es": "Novedad: otro límite de velocidad por la noche (Ajustes › Red y energía), por ejemplo sin límite de 22:00 a 07:00.",
+    "it": "Novità: un altro limite di velocità di notte (Impostazioni › Rete ed energia), ad esempio illimitato dalle 22:00 alle 07:00.",
+    "nl": "Nieuw: een ander snelheidslimiet 's nachts (Instellingen › Netwerk en energie), bijvoorbeeld onbeperkt van 22:00 tot 07:00.",
+    "pt": "Novidade: outro limite de velocidade à noite (Ajustes › Rede e energia), por exemplo sem limite das 22:00 às 07:00."
   }
 }
