@@ -1,18 +1,18 @@
 {
-  "version": "0.5.3",
-  "build": 9,
+  "version": "0.6.0",
+  "build": 10,
   "minimum_macos": "13.0",
-  "url": "https://github.com/xavier38/sesame/releases/download/v0.5.3/Sesame.zip",
-  "size": 34780393,
-  "sha256": "4d4dbc8e3763bdaae0fca22e0138315a894675763c0fe863e53ce97db2adece9",
-  "signature": "x3w0EP6nSddD8GK+oBITERrggucNZfncHgLkzGILqjBcA3JGLGT2Jw8Tbp+RvOHI+dj1nhWVGxOozWc92aDOBw==",
+  "url": "https://github.com/xavier38/sesame/releases/download/v0.6.0/Sesame.zip",
+  "size": 34819814,
+  "sha256": "bc8a26c7eaba6a08c5540c3dae48405a07cdb989f219816622c54386abef444a",
+  "signature": "Prb4EEQFIEYIlcuiNHC9xuPryU1bjvIFtbj7o6PXQ4s6ZF2pxn4w0gWEbCNS5kY59KAIU2lFrTH2L8CO9u7GBg==",
   "notes": {
-    "fr": "Nouveau : une autre limite de débit la nuit (Réglages › Réseau et énergie), par exemple illimité de 22:00 à 07:00.",
-    "en": "New: a different speed limit at night (Settings › Network & power), for example unlimited from 22:00 to 07:00.",
-    "de": "Neu: eine andere Geschwindigkeitsgrenze in der Nacht (Einstellungen › Netz und Energie), z. B. unbegrenzt von 22:00 bis 07:00.",
-    "es": "Novedad: otro límite de velocidad por la noche (Ajustes › Red y energía), por ejemplo sin límite de 22:00 a 07:00.",
-    "it": "Novità: un altro limite di velocità di notte (Impostazioni › Rete ed energia), ad esempio illimitato dalle 22:00 alle 07:00.",
-    "nl": "Nieuw: een ander snelheidslimiet 's nachts (Instellingen › Netwerk en energie), bijvoorbeeld onbeperkt van 22:00 tot 07:00.",
-    "pt": "Novidade: outro limite de velocidade à noite (Ajustes › Rede e energia), por exemplo sem limite das 22:00 às 07:00."
+    "fr": "Plus rapide : 4 fichiers transférés à la fois. Plus sûr : vos connexions sont gardées dans le Trousseau du Mac.",
+    "en": "Faster: 4 files transferred at a time. Safer: your sign-ins are kept in the Mac Keychain.",
+    "de": "Schneller: 4 Dateien gleichzeitig übertragen. Sicherer: Ihre Anmeldungen liegen im Mac-Schlüsselbund.",
+    "es": "Más rápido: 4 archivos transferidos a la vez. Más seguro: sus conexiones se guardan en el Llavero del Mac.",
+    "it": "Più veloce: 4 file trasferiti alla volta. Più sicuro: i tuoi accessi sono conservati nel Portachiavi del Mac.",
+    "nl": "Sneller: 4 bestanden tegelijk overgezet. Veiliger: uw aanmeldingen staan in de Mac-sleutelhanger.",
+    "pt": "Mais rápido: 4 arquivos transferidos ao mesmo tempo. Mais seguro: suas conexões ficam nas Chaves do Mac."
   }
 }
