@@ -1,18 +1,18 @@
 {
-  "version": "0.6.1",
-  "build": 11,
+  "version": "0.6.2",
+  "build": 12,
   "minimum_macos": "13.0",
-  "url": "https://github.com/xavier38/sesame/releases/download/v0.6.1/Sesame.zip",
-  "size": 34819929,
-  "sha256": "afe57c905ccfd3cc3133cb177c90e89bb18ba723ed8fbe18edf42b8dfc719b82",
-  "signature": "33hArpJPa9F+9VsWunMQ/2M4tTbGZa98WzmJRO3KfZ2+8oNcoLizdA9zhx5ctZsWJtiP5u+i9JSSCbs1+2BQCg==",
+  "url": "https://github.com/xavier38/sesame/releases/download/v0.6.2/Sesame.zip",
+  "size": 34823607,
+  "sha256": "5e37218bb83a830dd0da3aa3caf7fcc6bdde8f563d1a600bdb8d446e0670ddbd",
+  "signature": "TQfZHNe2sh8+xsB36ErKmICWV7NHrfjeHsGU7SfNQaDGvOOhVywOHZ3IrCwDaJ5zWr8miKIqMsgTWpeAYvdoCg==",
   "notes": {
-    "fr": "Le moteur s'arrête proprement quand vous quittez Sesame ou qu'une mise à jour s'installe.",
-    "en": "The engine now stops cleanly when you quit Sesame or an update installs.",
-    "de": "Die Synchronisierung wird jetzt sauber beendet, wenn Sie Sesame beenden oder ein Update installiert wird.",
-    "es": "El motor se detiene correctamente al salir de Sesame o al instalarse una actualización.",
-    "it": "Il motore ora si arresta correttamente quando esci da Sesame o si installa un aggiornamento.",
-    "nl": "De synchronisatie stopt nu netjes wanneer u Sesame afsluit of een update wordt geïnstalleerd.",
-    "pt": "O mecanismo agora para corretamente ao sair do Sesame ou ao instalar uma atualização."
+    "fr": "Quand une nouvelle version est prête, elle s'affiche tout en haut du menu de Sesame : un clic propose de l'installer tout de suite.",
+    "en": "When a new version is ready, it shows at the very top of the Sesame menu: one click offers to install it right away.",
+    "de": "Ist eine neue Version bereit, erscheint sie ganz oben im Sesame-Menü: Ein Klick bietet an, sie sofort zu installieren.",
+    "es": "Cuando hay una nueva versión, aparece arriba del todo en el menú de Sesame: un clic propone instalarla enseguida.",
+    "it": "Quando è pronta una nuova versione, compare in cima al menu di Sesame: un clic propone di installarla subito.",
+    "nl": "Staat er een nieuwe versie klaar, dan verschijnt die helemaal bovenaan in het Sesame-menu: één klik biedt aan hem meteen te installeren.",
+    "pt": "Quando há uma nova versão, ela aparece no topo do menu do Sesame: um clique propõe instalá-la na hora."
   }
 }
