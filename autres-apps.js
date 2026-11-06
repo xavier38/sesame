@@ -29,13 +29,13 @@
              it: "Le tue foto meritano un atelier: ritoccale sul tuo Mac, senza account né cloud." } }
   ];
   var T = {
-    fr: { title: "Mes autres applications", lead: "Gratuites elles aussi, pour Mac.", site: "Découvrir", repo: "Sur GitHub" },
-    en: { title: "My other apps", lead: "Free as well, for Mac.", site: "Discover", repo: "On GitHub" },
-    es: { title: "Mis otras apps", lead: "También gratis, para Mac.", site: "Descubrir", repo: "En GitHub" },
-    pt: { title: "As minhas outras apps", lead: "Também gratuitas, para Mac.", site: "Descobrir", repo: "No GitHub" },
-    nl: { title: "Mijn andere apps", lead: "Ook gratis, voor de Mac.", site: "Ontdekken", repo: "Op GitHub" },
-    de: { title: "Meine anderen Apps", lead: "Ebenfalls kostenlos, für den Mac.", site: "Entdecken", repo: "Auf GitHub" },
-    it: { title: "Le mie altre app", lead: "Anche queste gratuite, per Mac.", site: "Scopri", repo: "Su GitHub" }
+    fr: { title: "Mes autres applications", lead: "Gratuites elles aussi. Consultez chaque page pour les systèmes disponibles.", site: "Découvrir", repo: "Sur GitHub" },
+    en: { title: "My other apps", lead: "Free as well. See each page for supported operating systems.", site: "Discover", repo: "On GitHub" },
+    es: { title: "Mis otras apps", lead: "También gratis. Consulte cada página para ver los sistemas disponibles.", site: "Descubrir", repo: "En GitHub" },
+    pt: { title: "As minhas outras apps", lead: "Também gratuitas. Consulte cada página para ver os sistemas disponíveis.", site: "Descobrir", repo: "No GitHub" },
+    nl: { title: "Mijn andere apps", lead: "Ook gratis. Bekijk elke pagina voor de ondersteunde besturingssystemen.", site: "Ontdekken", repo: "Op GitHub" },
+    de: { title: "Meine anderen Apps", lead: "Ebenfalls kostenlos. Die unterstützten Betriebssysteme stehen auf der jeweiligen Seite.", site: "Entdecken", repo: "Auf GitHub" },
+    it: { title: "Le mie altre app", lead: "Anche queste gratuite. Consultate ogni pagina per i sistemi disponibili.", site: "Scopri", repo: "Su GitHub" }
   };
   var root = document.getElementById("autres-apps");
   if (!root) return;

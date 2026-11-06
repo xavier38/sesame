@@ -37,7 +37,7 @@
   <div lang="fr">
     <div class="box">
       <h2>En une phrase</h2>
-      <p>Sesame travaille uniquement sur votre ordinateur : vos fichiers vont directement de votre cloud (Google Drive, OneDrive, Dropbox, NAS) à votre Mac, et inversement. Le développeur n'a aucun serveur, ne reçoit rien et ne voit rien de vos données.</p>
+      <p>Sesame travaille uniquement sur votre ordinateur : vos fichiers vont directement de votre cloud (Google Drive, OneDrive, Dropbox, NAS) à votre ordinateur, et inversement. Le développeur n'a aucun serveur, ne reçoit rien et ne voit rien de vos données.</p>
     </div>
 
     <h2>Ce à quoi Sesame accède</h2>
@@ -46,13 +46,13 @@
     <h2>Où vont vos données</h2>
     <ul>
       <li><strong>Vos fichiers</strong> circulent uniquement entre le service cloud et votre ordinateur. Ils ne passent par aucun serveur du développeur ni d'un tiers.</li>
-      <li><strong>Vos autorisations de connexion</strong> (jetons) sont enregistrées sur votre ordinateur, dans un fichier protégé réservé à votre session. Les mots de passe de NAS sont rangés dans le Trousseau de macOS. Rien de tout cela n'est envoyé ailleurs.</li>
+      <li><strong>Vos autorisations de connexion</strong> (jetons) sont enregistrées sur votre ordinateur, dans un fichier protégé réservé à votre session. Les mots de passe de NAS utilisent le stockage sécurisé du système lorsqu’il est disponible (Trousseau sur Mac, service de secrets sur Linux). Sinon, un fichier local protégé est utilisé ; ce fichier n’est pas chiffré par Sesame. Rien de tout cela n'est envoyé ailleurs.</li>
       <li><strong>Le chiffrement</strong> : les « coffres » de Sesame chiffrent vos dossiers sur votre ordinateur avant l'envoi. Personne, pas même le cloud, ne peut les lire sans votre mot de passe.</li>
-      <li><strong>Nous écrire</strong> : le message part depuis votre propre app Mail, et seulement si vous cliquez sur Envoyer. Les informations techniques ne sont jointes que si vous le choisissez.</li>
+      <li><strong>Nous écrire</strong> : le message part depuis votre logiciel de messagerie, et seulement si vous cliquez sur Envoyer. Les informations techniques ne sont jointes que si vous le choisissez.</li>
     </ul>
 
-    <h2>Statistiques d'utilisation (vous pouvez les couper)</h2>
-    <p>Elles sont <strong>activées au départ</strong>. Vous pouvez les couper à tout moment dans les Réglages (rubrique Confidentialité) : plus rien n'est alors envoyé. Sesame envoie seulement des événements anonymes et fixes (par exemple « un compte a été ajouté », avec le type de service) au service de mesure respectueux de la vie privée TelemetryDeck. Jamais de nom de fichier, de dossier ou de compte, jamais d'adresse e-mail ni de chemin.</p>
+    <h2>Statistiques d'utilisation sur Mac (vous pouvez les couper)</h2>
+    <p>La version Mac propose ces statistiques ; la version Linux n’en envoie pas. Sur Mac, elles sont <strong>activées au départ</strong>. Vous pouvez les couper à tout moment dans les Réglages (rubrique Confidentialité) : plus rien n'est alors envoyé. Sesame envoie seulement des événements anonymes et fixes (par exemple « un compte a été ajouté », avec le type de service) au service de mesure respectueux de la vie privée TelemetryDeck. Jamais de nom de fichier, de dossier ou de compte, jamais d'adresse e-mail ni de chemin.</p>
 
     <h2>Données issues de Google</h2>
     <p>L'utilisation par Sesame des informations reçues des API Google respecte la <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Politique relative aux données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation limitée. Sesame ne vend pas ces données, ne les partage avec personne, ne s'en sert pas pour de la publicité, et aucun humain ne les consulte.</p>
@@ -71,7 +71,7 @@
   <div lang="en">
     <div class="box">
       <h2>In one sentence</h2>
-      <p>Sesame works only on your computer: your files go straight from your cloud (Google Drive, OneDrive, Dropbox, NAS) to your Mac and back. The developer runs no server, receives nothing and sees none of your data.</p>
+      <p>Sesame works only on your computer: your files go straight from your cloud (Google Drive, OneDrive, Dropbox, NAS) to your computer and back. The developer runs no server, receives nothing and sees none of your data.</p>
     </div>
 
     <h2>What Sesame accesses</h2>
@@ -80,13 +80,13 @@
     <h2>Where your data goes</h2>
     <ul>
       <li><strong>Your files</strong> travel only between the cloud service and your computer. They never pass through any server of the developer or of a third party.</li>
-      <li><strong>Your sign-in authorizations</strong> (tokens) are stored on your computer, in a protected file reserved to your session. NAS passwords are kept in the macOS Keychain. None of this is sent anywhere else.</li>
+      <li><strong>Your sign-in authorizations</strong> (tokens) are stored on your computer, in a protected file reserved to your session. NAS passwords use the system’s secure storage when available (Keychain on Mac, secret service on Linux). Otherwise, a protected local file is used; Sesame does not encrypt that file. None of this is sent anywhere else.</li>
       <li><strong>Encryption</strong>: Sesame's “vaults” encrypt your folders on your computer before upload. Nobody, not even the cloud, can read them without your password.</li>
-      <li><strong>Contact us</strong>: the message is sent from your own Mail app, and only if you click Send. Technical information is attached only if you choose so.</li>
+      <li><strong>Contact us</strong>: the message is sent from your own mail app, and only if you click Send. Technical information is attached only if you choose so.</li>
     </ul>
 
-    <h2>Usage statistics (you can turn them off)</h2>
-    <p>They are <strong>on at first</strong>. You can turn them off at any time in Settings (Privacy section): nothing is sent after that. Sesame sends only anonymous, fixed events (for example “an account was added”, with the type of service) to the privacy-friendly analytics service TelemetryDeck. Never a file, folder or account name, never an e-mail address or a path.</p>
+    <h2>Usage statistics on Mac (you can turn them off)</h2>
+    <p>These statistics are provided by the Mac version; the Linux version does not send them. On Mac, they are <strong>on at first</strong>. You can turn them off at any time in Settings (Privacy section): nothing is sent after that. Sesame sends only anonymous, fixed events (for example “an account was added”, with the type of service) to the privacy-friendly analytics service TelemetryDeck. Never a file, folder or account name, never an e-mail address or a path.</p>
 
     <h2>Data received from Google</h2>
     <p>Sesame's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements. Sesame does not sell this data, share it with anyone, use it for advertising, and no human reads it.</p>
