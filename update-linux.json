@@ -1,21 +1,33 @@
 {
-  "version": "0.7.1",
-  "build": 15,
+  "version": "0.7.2",
+  "build": 16,
   "platform": "linux",
-  "url": "https://github.com/xavier38/sesame/releases/download/v0.7.1/sesame.deb",
-  "size": 2446136,
-  "sha256": "aa87bce18c1f11cb9d4bc12c4171f291cd2a52e0adcc2d570f1ddd725db0ce7d",
-  "signature": "+L1/udCepvi0zv7xKXRrS08B8SEfmI7rVAVJisGlZ9AoRJVlBIYOhCYOLwFGHltwVKKzp5awDXdiF5DEUKNECg==",
+  "url": "https://github.com/xavier38/sesame/releases/download/v0.7.2/sesame.deb",
+  "size": 2457346,
+  "sha256": "ecc65e6f853daca88e1b097e2bb577b13d4b6e5878d787ea3d5897b66d8ae6b9",
+  "signature": "Rw+QZsmBeMcsb9Eu6C4XMEt6bPUrkLaTVomia2S9Re28s4E+0cw+epywP8DWyAVlrqr3ydSiupeJXUMuQfNWDQ==",
   "notes": {
-    "fr": "Les photos supprimées dans Atelier, le Finder ou une autre application apparaissent désormais dans Activité après confirmation de leur suppression dans le cloud. Une suppression refusée n’est jamais annoncée comme réussie.",
-    "en": "Photos deleted in Atelier, Finder or another app now appear in Activity once their deletion in the cloud is confirmed. A rejected deletion is never reported as successful.",
-    "es": "Las fotos eliminadas en Atelier, Finder u otra aplicación aparecen ahora en Actividad tras confirmarse su eliminación en la nube. Una eliminación rechazada nunca se muestra como correcta.",
-    "pt": "As fotografias eliminadas no Atelier, no Finder ou noutra aplicação aparecem agora em Atividade após a confirmação da eliminação na nuvem. Uma eliminação recusada nunca é indicada como concluída.",
-    "nl": "Foto’s die in Atelier, Finder of een andere app worden verwijderd, verschijnen nu in Activiteit zodra de verwijdering in de cloud is bevestigd. Een geweigerde verwijdering wordt nooit als geslaagd gemeld.",
-    "de": "In Atelier, Finder oder einer anderen App gelöschte Fotos erscheinen jetzt nach Bestätigung der Löschung in der Cloud unter Aktivität. Eine abgelehnte Löschung wird niemals als erfolgreich gemeldet.",
-    "it": "Le foto eliminate in Atelier, Finder o un’altra app ora appaiono in Attività dopo la conferma dell’eliminazione nel cloud. Un’eliminazione rifiutata non viene mai indicata come riuscita."
+    "fr": "Navigation au clavier et lecture des commandes améliorées. Les textes et avertissements sont plus lisibles en mode clair comme en mode sombre.",
+    "en": "Improved keyboard navigation and accessible control names. Text and warnings are easier to read in both light and dark mode.",
+    "es": "Se han mejorado la navegación con teclado y los nombres accesibles de los controles. Los textos y avisos son más legibles en modo claro y oscuro.",
+    "pt": "Navegação por teclado e nomes acessíveis dos controlos melhorados. Os textos e avisos são mais legíveis nos modos claro e escuro.",
+    "nl": "Verbeterde toetsenbordbediening en toegankelijke namen van bedieningselementen. Tekst en waarschuwingen zijn beter leesbaar in de lichte en donkere modus.",
+    "de": "Verbesserte Tastaturbedienung und zugängliche Beschriftungen der Bedienelemente. Texte und Warnungen sind im hellen und dunklen Modus besser lesbar.",
+    "it": "Navigazione da tastiera e nomi accessibili dei comandi migliorati. Testi e avvisi più leggibili in modalità chiara e scura."
   },
   "history": [
+    {
+      "version": "0.7.1",
+      "notes": {
+        "fr": "Les photos supprimées dans Atelier, le Finder ou une autre application apparaissent désormais dans Activité après confirmation de leur suppression dans le cloud. Une suppression refusée n’est jamais annoncée comme réussie.",
+        "en": "Photos deleted in Atelier, Finder or another app now appear in Activity once their deletion in the cloud is confirmed. A rejected deletion is never reported as successful.",
+        "es": "Las fotos eliminadas en Atelier, Finder u otra aplicación aparecen ahora en Actividad tras confirmarse su eliminación en la nube. Una eliminación rechazada nunca se muestra como correcta.",
+        "pt": "As fotografias eliminadas no Atelier, no Finder ou noutra aplicação aparecem agora em Atividade após a confirmação da eliminação na nuvem. Uma eliminação recusada nunca é indicada como concluída.",
+        "nl": "Foto’s die in Atelier, Finder of een andere app worden verwijderd, verschijnen nu in Activiteit zodra de verwijdering in de cloud is bevestigd. Een geweigerde verwijdering wordt nooit als geslaagd gemeld.",
+        "de": "In Atelier, Finder oder einer anderen App gelöschte Fotos erscheinen jetzt nach Bestätigung der Löschung in der Cloud unter Aktivität. Eine abgelehnte Löschung wird niemals als erfolgreich gemeldet.",
+        "it": "Le foto eliminate in Atelier, Finder o un’altra app ora appaiono in Attività dopo la conferma dell’eliminazione nel cloud. Un’eliminazione rifiutata non viene mai indicata come riuscita."
+      }
+    },
     {
       "version": "0.7.0",
       "notes": {
@@ -98,18 +110,6 @@
         "it": "Statistiche anonime attive per impostazione predefinita (mai i tuoi file), disattivabili con un clic nelle Impostazioni.",
         "nl": "Anonieme statistieken standaard aan (nooit uw bestanden), met één klik uit te zetten in Instellingen.",
         "pt": "Estatísticas anônimas ativadas por padrão (nunca seus arquivos), desativáveis com um clique nos Ajustes."
-      }
-    },
-    {
-      "version": "0.5.1",
-      "notes": {
-        "fr": "Statistiques anonymes pour améliorer Sesame (jamais vos fichiers), désactivables d'un clic dans les Réglages.",
-        "en": "Anonymous statistics to improve Sesame (never your files), can be turned off in one click in Settings.",
-        "de": "Anonyme Statistiken zur Verbesserung von Sesame (niemals deine Dateien), mit einem Klick in den Einstellungen abschaltbar.",
-        "es": "Estadísticas anónimas para mejorar Sesame (nunca tus archivos), desactivables con un clic en Ajustes.",
-        "it": "Statistiche anonime per migliorare Sesame (mai i tuoi file), disattivabili con un clic nelle Impostazioni.",
-        "nl": "Anonieme statistieken om Sesame te verbeteren (nooit je bestanden), met één klik uit te zetten in Instellingen.",
-        "pt": "Estatísticas anónimas para melhorar o Sesame (nunca os seus ficheiros), desativáveis com um clique nas Definições."
       }
     }
   ]
