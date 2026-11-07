@@ -1,21 +1,33 @@
 {
-  "version": "0.7.0",
-  "build": 14,
+  "version": "0.7.1",
+  "build": 15,
   "platform": "linux",
-  "url": "https://github.com/xavier38/sesame/releases/download/v0.7.0/sesame.deb",
-  "size": 2424878,
-  "sha256": "c552e5a635f4deb3765bc76635d43649a57fc7e59c339720223b1abb7e59d7c6",
-  "signature": "lV6vx3upNDJN8a1Dbso14wXrT7mAzr87tbXPErxqUYdLpQYPKAV86HxusrADSkkrb/y7ISzLYBBKM4qMRKd8BQ==",
+  "url": "https://github.com/xavier38/sesame/releases/download/v0.7.1/sesame.deb",
+  "size": 2446136,
+  "sha256": "aa87bce18c1f11cb9d4bc12c4171f291cd2a52e0adcc2d570f1ddd725db0ce7d",
+  "signature": "+L1/udCepvi0zv7xKXRrS08B8SEfmI7rVAVJisGlZ9AoRJVlBIYOhCYOLwFGHltwVKKzp5awDXdiF5DEUKNECg==",
   "notes": {
-    "fr": "Sesame arrive sur Linux. Moins de fausses alertes : fichier renommé pendant son envoi, coupure de réseau passagère.",
-    "en": "Sesame comes to Linux. Fewer false alerts: file renamed while being sent, short network cut.",
-    "de": "Sesame kommt auf Linux. Weniger Fehlalarme: Datei während des Hochladens umbenannt, kurzer Netzausfall.",
-    "es": "Sesame llega a Linux. Menos falsas alertas: archivo renombrado durante el envío, corte de red pasajero.",
-    "it": "Sesame arriva su Linux. Meno falsi allarmi: file rinominato durante l'invio, breve interruzione di rete.",
-    "nl": "Sesame komt naar Linux. Minder valse meldingen: bestand hernoemd tijdens het verzenden, korte netwerkstoring.",
-    "pt": "O Sesame chega ao Linux. Menos alertas falsos: arquivo renomeado durante o envio, queda de rede passageira."
+    "fr": "Les photos supprimées dans Atelier, le Finder ou une autre application apparaissent désormais dans Activité après confirmation de leur suppression dans le cloud. Une suppression refusée n’est jamais annoncée comme réussie.",
+    "en": "Photos deleted in Atelier, Finder or another app now appear in Activity once their deletion in the cloud is confirmed. A rejected deletion is never reported as successful.",
+    "es": "Las fotos eliminadas en Atelier, Finder u otra aplicación aparecen ahora en Actividad tras confirmarse su eliminación en la nube. Una eliminación rechazada nunca se muestra como correcta.",
+    "pt": "As fotografias eliminadas no Atelier, no Finder ou noutra aplicação aparecem agora em Atividade após a confirmação da eliminação na nuvem. Uma eliminação recusada nunca é indicada como concluída.",
+    "nl": "Foto’s die in Atelier, Finder of een andere app worden verwijderd, verschijnen nu in Activiteit zodra de verwijdering in de cloud is bevestigd. Een geweigerde verwijdering wordt nooit als geslaagd gemeld.",
+    "de": "In Atelier, Finder oder einer anderen App gelöschte Fotos erscheinen jetzt nach Bestätigung der Löschung in der Cloud unter Aktivität. Eine abgelehnte Löschung wird niemals als erfolgreich gemeldet.",
+    "it": "Le foto eliminate in Atelier, Finder o un’altra app ora appaiono in Attività dopo la conferma dell’eliminazione nel cloud. Un’eliminazione rifiutata non viene mai indicata come riuscita."
   },
   "history": [
+    {
+      "version": "0.7.0",
+      "notes": {
+        "fr": "Sesame arrive sur Linux. Moins de fausses alertes : fichier renommé pendant son envoi, coupure de réseau passagère.",
+        "en": "Sesame comes to Linux. Fewer false alerts: file renamed while being sent, short network cut.",
+        "de": "Sesame kommt auf Linux. Weniger Fehlalarme: Datei während des Hochladens umbenannt, kurzer Netzausfall.",
+        "es": "Sesame llega a Linux. Menos falsas alertas: archivo renombrado durante el envío, corte de red pasajero.",
+        "it": "Sesame arriva su Linux. Meno falsi allarmi: file rinominato durante l'invio, breve interruzione di rete.",
+        "nl": "Sesame komt naar Linux. Minder valse meldingen: bestand hernoemd tijdens het verzenden, korte netwerkstoring.",
+        "pt": "O Sesame chega ao Linux. Menos alertas falsos: arquivo renomeado durante o envio, queda de rede passageira."
+      }
+    },
     {
       "version": "0.6.3",
       "notes": {
@@ -98,18 +110,6 @@
         "it": "Statistiche anonime per migliorare Sesame (mai i tuoi file), disattivabili con un clic nelle Impostazioni.",
         "nl": "Anonieme statistieken om Sesame te verbeteren (nooit je bestanden), met één klik uit te zetten in Instellingen.",
         "pt": "Estatísticas anónimas para melhorar o Sesame (nunca os seus ficheiros), desativáveis com um clique nas Definições."
-      }
-    },
-    {
-      "version": "0.5.0",
-      "notes": {
-        "fr": "Sesame se met à jour toute seule ; S3 chiffré et « Déplacer » entre comptes plus sûrs ; tests automatiques de l'app.",
-        "en": "Sesame now updates itself; safer encrypted S3 and cross-account “Move”; automated app tests.",
-        "de": "Sesame aktualisiert sich jetzt selbst; sichereres verschlüsseltes S3 und „Verschieben“ zwischen Konten; automatische App-Tests.",
-        "es": "Sesame se actualiza sola; S3 cifrado y «Mover» entre cuentas más seguros; pruebas automáticas de la app.",
-        "it": "Sesame ora si aggiorna da sola; S3 cifrato e «Sposta» tra account più sicuri; test automatici dell'app.",
-        "nl": "Sesame werkt zichzelf nu bij; veiliger versleutelde S3 en „Verplaatsen” tussen accounts; automatische app-tests.",
-        "pt": "O Sesame agora atualiza-se sozinho; S3 cifrado e «Mover» entre contas mais seguros; testes automáticos da app."
       }
     }
   ]
