@@ -1,21 +1,33 @@
 {
-  "version": "1.0.1",
-  "build": 16,
+  "version": "1.0.2",
+  "build": 17,
   "minimum_macos": "13.0",
-  "url": "https://github.com/xavier38/sesame/releases/download/v1.0.1/Sesame.zip",
-  "size": 34843848,
-  "sha256": "b4fc3382a0637d3c5eced7b316e4dee879e37c127414a610f93c1e6c0215e995",
-  "signature": "1oe9ae0A3LIs2XPGH0pOr9NMRQk3sKvPnPLMvbq5DA5kMukI+ku2TXo/nrMuBKy4QfY5KJxdZishsC4SEgR+BQ==",
+  "url": "https://github.com/xavier38/sesame/releases/download/v1.0.2/Sesame.zip",
+  "size": 34843624,
+  "sha256": "3434a9a2fd75692923bbf97d6cfaf8b7ddafb4cf7cb41bf559f1b5e42c1a1b54",
+  "signature": "mXpb3EFKHxsv2xLuAHRBNgeqq9cfpYT6BfGzvsEtItUWcW/g7nLwsdbSE5+HPb9jaJOKy+7KCbOInGoA8dbPAQ==",
   "notes": {
-    "fr": "Mise à jour de fiabilité et de performance (suite de l'audit). Les coffres résistent désormais à une coupure en pleine écriture (plus de fichier illisible), une sécurité empêche d'effacer un très grand nombre de fichiers d'un coup, les connexions aux services sont réutilisées (moins d'attente et de batterie), les dates de modification sont préservées, et la synchronisation s'arrête proprement en cas de coupure réseau au lieu d'insister fichier par fichier.",
-    "en": "Reliability and performance update (following the audit). Vaults now survive a crash mid-write (no more unreadable file), a safeguard prevents erasing a very large number of files at once, service connections are reused (less waiting and battery), modification dates are preserved, and syncing stops cleanly on a network outage instead of retrying file by file.",
-    "es": "Actualización de fiabilidad y rendimiento (tras la auditoría). Las cajas fuertes ahora resisten un corte a mitad de escritura (ya no hay archivos ilegibles), una protección evita borrar muchísimos archivos de golpe, las conexiones a los servicios se reutilizan (menos espera y batería), se conservan las fechas de modificación y la sincronización se detiene limpiamente ante un corte de red en vez de reintentar archivo por archivo.",
-    "pt": "Atualização de fiabilidade e desempenho (após a auditoria). Os cofres resistem agora a uma falha a meio da escrita (sem ficheiros ilegíveis), uma proteção impede apagar um número muito grande de ficheiros de uma vez, as ligações aos serviços são reutilizadas (menos espera e bateria), as datas de modificação são preservadas e a sincronização para de forma limpa numa falha de rede em vez de repetir ficheiro a ficheiro.",
-    "nl": "Betrouwbaarheids- en prestatie-update (na de audit). Kluizen overleven nu een crash tijdens het schrijven (geen onleesbaar bestand meer), een beveiliging voorkomt het in één keer wissen van heel veel bestanden, serviceverbindingen worden hergebruikt (minder wachten en batterij), wijzigingsdatums blijven behouden, en synchroniseren stopt netjes bij een netwerkstoring in plaats van bestand voor bestand opnieuw te proberen.",
-    "de": "Zuverlässigkeits- und Leistungsupdate (nach dem Audit). Tresore überstehen jetzt einen Absturz mitten im Schreiben (keine unlesbare Datei mehr), ein Schutz verhindert das Löschen sehr vieler Dateien auf einmal, Dienstverbindungen werden wiederverwendet (weniger Warten und Akku), Änderungsdaten bleiben erhalten, und die Synchronisierung stoppt bei einem Netzwerkausfall sauber, statt Datei für Datei zu wiederholen.",
-    "it": "Aggiornamento di affidabilità e prestazioni (dopo l'audit). Le casseforti ora resistono a un'interruzione durante la scrittura (niente più file illeggibili), una protezione impedisce di cancellare moltissimi file in una volta, le connessioni ai servizi vengono riutilizzate (meno attesa e batteria), le date di modifica sono preservate e la sincronizzazione si ferma in modo pulito in caso di interruzione di rete invece di riprovare file per file."
+    "fr": "Version de maintenance : numéro de version suivant, pour suivre les versions installées. Aucun changement visible.",
+    "en": "Maintenance release: next version number, to keep track of installed versions. No visible change.",
+    "es": "Versión de mantenimiento: siguiente número de versión, para seguir las versiones instaladas. Sin cambios visibles.",
+    "pt": "Versão de manutenção: número de versão seguinte, para acompanhar as versões instaladas. Sem alterações visíveis.",
+    "nl": "Onderhoudsversie: volgend versienummer, om geïnstalleerde versies te kunnen volgen. Geen zichtbare wijziging.",
+    "de": "Wartungsversion: nächste Versionsnummer, um installierte Versionen nachverfolgen zu können. Keine sichtbare Änderung.",
+    "it": "Versione di manutenzione: numero di versione successivo, per seguire le versioni installate. Nessuna modifica visibile."
   },
   "history": [
+    {
+      "version": "1.0.1",
+      "notes": {
+        "fr": "Mise à jour de fiabilité et de performance (suite de l'audit). Les coffres résistent désormais à une coupure en pleine écriture (plus de fichier illisible), une sécurité empêche d'effacer un très grand nombre de fichiers d'un coup, les connexions aux services sont réutilisées (moins d'attente et de batterie), les dates de modification sont préservées, et la synchronisation s'arrête proprement en cas de coupure réseau au lieu d'insister fichier par fichier.",
+        "en": "Reliability and performance update (following the audit). Vaults now survive a crash mid-write (no more unreadable file), a safeguard prevents erasing a very large number of files at once, service connections are reused (less waiting and battery), modification dates are preserved, and syncing stops cleanly on a network outage instead of retrying file by file.",
+        "es": "Actualización de fiabilidad y rendimiento (tras la auditoría). Las cajas fuertes ahora resisten un corte a mitad de escritura (ya no hay archivos ilegibles), una protección evita borrar muchísimos archivos de golpe, las conexiones a los servicios se reutilizan (menos espera y batería), se conservan las fechas de modificación y la sincronización se detiene limpiamente ante un corte de red en vez de reintentar archivo por archivo.",
+        "pt": "Atualização de fiabilidade e desempenho (após a auditoria). Os cofres resistem agora a uma falha a meio da escrita (sem ficheiros ilegíveis), uma proteção impede apagar um número muito grande de ficheiros de uma vez, as ligações aos serviços são reutilizadas (menos espera e bateria), as datas de modificação são preservadas e a sincronização para de forma limpa numa falha de rede em vez de repetir ficheiro a ficheiro.",
+        "nl": "Betrouwbaarheids- en prestatie-update (na de audit). Kluizen overleven nu een crash tijdens het schrijven (geen onleesbaar bestand meer), een beveiliging voorkomt het in één keer wissen van heel veel bestanden, serviceverbindingen worden hergebruikt (minder wachten en batterij), wijzigingsdatums blijven behouden, en synchroniseren stopt netjes bij een netwerkstoring in plaats van bestand voor bestand opnieuw te proberen.",
+        "de": "Zuverlässigkeits- und Leistungsupdate (nach dem Audit). Tresore überstehen jetzt einen Absturz mitten im Schreiben (keine unlesbare Datei mehr), ein Schutz verhindert das Löschen sehr vieler Dateien auf einmal, Dienstverbindungen werden wiederverwendet (weniger Warten und Akku), Änderungsdaten bleiben erhalten, und die Synchronisierung stoppt bei einem Netzwerkausfall sauber, statt Datei für Datei zu wiederholen.",
+        "it": "Aggiornamento di affidabilità e prestazioni (dopo l'audit). Le casseforti ora resistono a un'interruzione durante la scrittura (niente più file illeggibili), una protezione impedisce di cancellare moltissimi file in una volta, le connessioni ai servizi vengono riutilizzate (meno attesa e batteria), le date di modifica sono preservate e la sincronizzazione si ferma in modo pulito in caso di interruzione di rete invece di riprovare file per file."
+      }
+    },
     {
       "version": "1.0.0",
       "notes": {
@@ -98,18 +110,6 @@
         "it": "Il motore ora si arresta correttamente quando esci da Sesame o si installa un aggiornamento.",
         "nl": "De synchronisatie stopt nu netjes wanneer u Sesame afsluit of een update wordt geïnstalleerd.",
         "pt": "O mecanismo agora para corretamente ao sair do Sesame ou ao instalar uma atualização."
-      }
-    },
-    {
-      "version": "0.6.0",
-      "notes": {
-        "fr": "Plus rapide : 4 fichiers transférés à la fois. Plus sûr : vos connexions sont gardées dans le Trousseau du Mac.",
-        "en": "Faster: 4 files transferred at a time. Safer: your sign-ins are kept in the Mac Keychain.",
-        "de": "Schneller: 4 Dateien gleichzeitig übertragen. Sicherer: Ihre Anmeldungen liegen im Mac-Schlüsselbund.",
-        "es": "Más rápido: 4 archivos transferidos a la vez. Más seguro: sus conexiones se guardan en el Llavero del Mac.",
-        "it": "Più veloce: 4 file trasferiti alla volta. Più sicuro: i tuoi accessi sono conservati nel Portachiavi del Mac.",
-        "nl": "Sneller: 4 bestanden tegelijk overgezet. Veiliger: uw aanmeldingen staan in de Mac-sleutelhanger.",
-        "pt": "Mais rápido: 4 arquivos transferidos ao mesmo tempo. Mais seguro: suas conexões ficam nas Chaves do Mac."
       }
     }
   ]
