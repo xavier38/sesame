@@ -1,21 +1,33 @@
 {
-  "version": "0.7.2",
+  "version": "1.0.0",
   "build": 16,
   "minimum_macos": "13.0",
-  "url": "https://github.com/xavier38/sesame/releases/download/v0.7.2/Sesame.zip",
-  "size": 34860575,
-  "sha256": "c9dfc90ed8db1f88e080778f1964eb7d8897dfc05ed68750748c203a13a71d94",
-  "signature": "vwXESvIbyvv2trT1QDiMOG61/tm6P4CIpF5A5AVPJHolwkodUF9sNS2ImE1aCZG+j0q9UNdoOKEcquAJRiXVCw==",
+  "url": "https://github.com/xavier38/sesame/releases/download/v1.0.0/Sesame.zip",
+  "size": 34834745,
+  "sha256": "4f147083a63d217561adc21f355bebaf41a381f59a00a780ae230a1442a013df",
+  "signature": "XtaO47YqDWgddiXUlJfQYaGmRBv1Ch2tmFDpX8vMiv9EhQiNvoO9+gQdEq+AbpHN9/4546/qZC7lZnb7Y/yaCQ==",
   "notes": {
-    "fr": "Navigation au clavier et lecture des commandes améliorées. Les textes et avertissements sont plus lisibles en mode clair comme en mode sombre.",
-    "en": "Improved keyboard navigation and accessible control names. Text and warnings are easier to read in both light and dark mode.",
-    "es": "Se han mejorado la navegación con teclado y los nombres accesibles de los controles. Los textos y avisos son más legibles en modo claro y oscuro.",
-    "pt": "Navegação por teclado e nomes acessíveis dos controlos melhorados. Os textos e avisos são mais legíveis nos modos claro e escuro.",
-    "nl": "Verbeterde toetsenbordbediening en toegankelijke namen van bedieningselementen. Tekst en waarschuwingen zijn beter leesbaar in de lichte en donkere modus.",
-    "de": "Verbesserte Tastaturbedienung und zugängliche Beschriftungen der Bedienelemente. Texte und Warnungen sind im hellen und dunklen Modus besser lesbar.",
-    "it": "Navigazione da tastiera e nomi accessibili dei comandi migliorati. Testi e avvisi più leggibili in modalità chiara e scura."
+    "fr": "Sésame devient une application Mac et passe en 1.0, après un grand audit (sécurité, synchro, performance). Plus aucun secret n’est inclus dans l’app, la restauration de version OneDrive est réparée, les statistiques sont désormais désactivées par défaut, et une fenêtre propose d’installer les mises à jour au lancement. Google Drive, Box et pCloud demandent maintenant vos propres identifiants (créés sur leur site).",
+    "en": "Sesame becomes a Mac app and reaches 1.0 after a large audit (security, sync, performance). No secret is bundled in the app anymore, OneDrive version restore is fixed, statistics are now off by default, and a window offers to install updates at launch. Google Drive, Box and pCloud now ask for your own credentials (created on their site).",
+    "es": "Sesame se convierte en una app de Mac y llega a 1.0 tras una gran auditoría (seguridad, sincronización, rendimiento). Ya no se incluye ningún secreto en la app, se ha arreglado la restauración de versiones de OneDrive, las estadísticas están ahora desactivadas por defecto y una ventana propone instalar las actualizaciones al abrir. Google Drive, Box y pCloud piden ahora sus propias credenciales (creadas en su sitio).",
+    "pt": "O Sesame torna-se uma app Mac e chega à 1.0 após uma grande auditoria (segurança, sincronização, desempenho). Já não há segredos incluídos na app, a restauração de versões do OneDrive foi corrigida, as estatísticas estão agora desativadas por predefinição e uma janela propõe instalar as atualizações ao abrir. Google Drive, Box e pCloud pedem agora as suas próprias credenciais (criadas no site deles).",
+    "nl": "Sesame wordt een Mac-app en bereikt 1.0 na een grote audit (beveiliging, synchronisatie, prestaties). Er zit geen geheim meer in de app, het herstellen van OneDrive-versies is gerepareerd, statistieken staan nu standaard uit en een venster biedt aan updates bij het starten te installeren. Google Drive, Box en pCloud vragen nu je eigen inloggegevens (aangemaakt op hun site).",
+    "de": "Sesame wird eine Mac-App und erreicht 1.0 nach einem großen Audit (Sicherheit, Synchronisierung, Leistung). In der App ist kein Geheimnis mehr enthalten, die OneDrive-Versionswiederherstellung ist repariert, Statistiken sind jetzt standardmäßig aus, und ein Fenster bietet an, Updates beim Start zu installieren. Google Drive, Box und pCloud verlangen jetzt Ihre eigenen Zugangsdaten (auf deren Website erstellt).",
+    "it": "Sesame diventa un'app Mac e arriva alla 1.0 dopo un grande audit (sicurezza, sincronizzazione, prestazioni). Nell'app non è più incluso alcun segreto, il ripristino delle versioni OneDrive è corretto, le statistiche sono ora disattivate per impostazione predefinita e una finestra propone di installare gli aggiornamenti all'avvio. Google Drive, Box e pCloud ora chiedono le tue credenziali (create sul loro sito)."
   },
   "history": [
+    {
+      "version": "0.7.2",
+      "notes": {
+        "fr": "Disponible pour Mac, Linux et Windows. Navigation au clavier et lecture des commandes améliorées ; textes et avertissements plus lisibles en modes clair et sombre.",
+        "en": "Available for Mac, Linux, and Windows. Improved keyboard navigation and control names; text and warnings are easier to read in light and dark modes.",
+        "es": "Disponible para Mac, Linux y Windows. Se han mejorado la navegación con teclado y los nombres accesibles de los controles; los textos y avisos son más legibles en modo claro y oscuro.",
+        "pt": "Disponível para Mac, Linux e Windows. Navegação por teclado e nomes acessíveis dos controlos melhorados; textos e avisos mais legíveis nos modos claro e escuro.",
+        "nl": "Beschikbaar voor Mac, Linux en Windows. Verbeterde toetsenbordbediening en toegankelijke namen van bedieningselementen; tekst en waarschuwingen zijn beter leesbaar in de lichte en donkere modus.",
+        "de": "Verfügbar für Mac, Linux und Windows. Verbesserte Tastaturbedienung und zugängliche Beschriftungen; Texte und Warnungen sind im hellen und dunklen Modus besser lesbar.",
+        "it": "Disponibile per Mac, Linux e Windows. Navigazione da tastiera e nomi accessibili dei comandi migliorati; testi e avvisi più leggibili in modalità chiara e scura."
+      }
+    },
     {
       "version": "0.7.1",
       "notes": {
@@ -98,18 +110,6 @@
         "it": "Novità: un altro limite di velocità di notte (Impostazioni › Rete ed energia), ad esempio illimitato dalle 22:00 alle 07:00.",
         "nl": "Nieuw: een ander snelheidslimiet 's nachts (Instellingen › Netwerk en energie), bijvoorbeeld onbeperkt van 22:00 tot 07:00.",
         "pt": "Novidade: outro limite de velocidade à noite (Ajustes › Rede e energia), por exemplo sem limite das 22:00 às 07:00."
-      }
-    },
-    {
-      "version": "0.5.2",
-      "notes": {
-        "fr": "Statistiques anonymes activées au départ (jamais vos fichiers), désactivables d'un clic dans les Réglages.",
-        "en": "Anonymous statistics on by default (never your files), can be turned off in one click in Settings.",
-        "de": "Anonyme Statistiken standardmäßig aktiv (niemals Ihre Dateien), mit einem Klick in den Einstellungen abschaltbar.",
-        "es": "Estadísticas anónimas activadas por defecto (nunca sus archivos), desactivables con un clic en Ajustes.",
-        "it": "Statistiche anonime attive per impostazione predefinita (mai i tuoi file), disattivabili con un clic nelle Impostazioni.",
-        "nl": "Anonieme statistieken standaard aan (nooit uw bestanden), met één klik uit te zetten in Instellingen.",
-        "pt": "Estatísticas anônimas ativadas por padrão (nunca seus arquivos), desativáveis com um clique nos Ajustes."
       }
     }
   ]
