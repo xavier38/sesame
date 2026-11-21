@@ -1,21 +1,33 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "build": 16,
   "minimum_macos": "13.0",
-  "url": "https://github.com/xavier38/sesame/releases/download/v1.0.0/Sesame.zip",
-  "size": 34834745,
-  "sha256": "4f147083a63d217561adc21f355bebaf41a381f59a00a780ae230a1442a013df",
-  "signature": "XtaO47YqDWgddiXUlJfQYaGmRBv1Ch2tmFDpX8vMiv9EhQiNvoO9+gQdEq+AbpHN9/4546/qZC7lZnb7Y/yaCQ==",
+  "url": "https://github.com/xavier38/sesame/releases/download/v1.0.1/Sesame.zip",
+  "size": 34843848,
+  "sha256": "b4fc3382a0637d3c5eced7b316e4dee879e37c127414a610f93c1e6c0215e995",
+  "signature": "1oe9ae0A3LIs2XPGH0pOr9NMRQk3sKvPnPLMvbq5DA5kMukI+ku2TXo/nrMuBKy4QfY5KJxdZishsC4SEgR+BQ==",
   "notes": {
-    "fr": "Sésame devient une application Mac et passe en 1.0, après un grand audit (sécurité, synchro, performance). Plus aucun secret n’est inclus dans l’app, la restauration de version OneDrive est réparée, les statistiques sont désormais désactivées par défaut, et une fenêtre propose d’installer les mises à jour au lancement. Google Drive, Box et pCloud demandent maintenant vos propres identifiants (créés sur leur site).",
-    "en": "Sesame becomes a Mac app and reaches 1.0 after a large audit (security, sync, performance). No secret is bundled in the app anymore, OneDrive version restore is fixed, statistics are now off by default, and a window offers to install updates at launch. Google Drive, Box and pCloud now ask for your own credentials (created on their site).",
-    "es": "Sesame se convierte en una app de Mac y llega a 1.0 tras una gran auditoría (seguridad, sincronización, rendimiento). Ya no se incluye ningún secreto en la app, se ha arreglado la restauración de versiones de OneDrive, las estadísticas están ahora desactivadas por defecto y una ventana propone instalar las actualizaciones al abrir. Google Drive, Box y pCloud piden ahora sus propias credenciales (creadas en su sitio).",
-    "pt": "O Sesame torna-se uma app Mac e chega à 1.0 após uma grande auditoria (segurança, sincronização, desempenho). Já não há segredos incluídos na app, a restauração de versões do OneDrive foi corrigida, as estatísticas estão agora desativadas por predefinição e uma janela propõe instalar as atualizações ao abrir. Google Drive, Box e pCloud pedem agora as suas próprias credenciais (criadas no site deles).",
-    "nl": "Sesame wordt een Mac-app en bereikt 1.0 na een grote audit (beveiliging, synchronisatie, prestaties). Er zit geen geheim meer in de app, het herstellen van OneDrive-versies is gerepareerd, statistieken staan nu standaard uit en een venster biedt aan updates bij het starten te installeren. Google Drive, Box en pCloud vragen nu je eigen inloggegevens (aangemaakt op hun site).",
-    "de": "Sesame wird eine Mac-App und erreicht 1.0 nach einem großen Audit (Sicherheit, Synchronisierung, Leistung). In der App ist kein Geheimnis mehr enthalten, die OneDrive-Versionswiederherstellung ist repariert, Statistiken sind jetzt standardmäßig aus, und ein Fenster bietet an, Updates beim Start zu installieren. Google Drive, Box und pCloud verlangen jetzt Ihre eigenen Zugangsdaten (auf deren Website erstellt).",
-    "it": "Sesame diventa un'app Mac e arriva alla 1.0 dopo un grande audit (sicurezza, sincronizzazione, prestazioni). Nell'app non è più incluso alcun segreto, il ripristino delle versioni OneDrive è corretto, le statistiche sono ora disattivate per impostazione predefinita e una finestra propone di installare gli aggiornamenti all'avvio. Google Drive, Box e pCloud ora chiedono le tue credenziali (create sul loro sito)."
+    "fr": "Mise à jour de fiabilité et de performance (suite de l'audit). Les coffres résistent désormais à une coupure en pleine écriture (plus de fichier illisible), une sécurité empêche d'effacer un très grand nombre de fichiers d'un coup, les connexions aux services sont réutilisées (moins d'attente et de batterie), les dates de modification sont préservées, et la synchronisation s'arrête proprement en cas de coupure réseau au lieu d'insister fichier par fichier.",
+    "en": "Reliability and performance update (following the audit). Vaults now survive a crash mid-write (no more unreadable file), a safeguard prevents erasing a very large number of files at once, service connections are reused (less waiting and battery), modification dates are preserved, and syncing stops cleanly on a network outage instead of retrying file by file.",
+    "es": "Actualización de fiabilidad y rendimiento (tras la auditoría). Las cajas fuertes ahora resisten un corte a mitad de escritura (ya no hay archivos ilegibles), una protección evita borrar muchísimos archivos de golpe, las conexiones a los servicios se reutilizan (menos espera y batería), se conservan las fechas de modificación y la sincronización se detiene limpiamente ante un corte de red en vez de reintentar archivo por archivo.",
+    "pt": "Atualização de fiabilidade e desempenho (após a auditoria). Os cofres resistem agora a uma falha a meio da escrita (sem ficheiros ilegíveis), uma proteção impede apagar um número muito grande de ficheiros de uma vez, as ligações aos serviços são reutilizadas (menos espera e bateria), as datas de modificação são preservadas e a sincronização para de forma limpa numa falha de rede em vez de repetir ficheiro a ficheiro.",
+    "nl": "Betrouwbaarheids- en prestatie-update (na de audit). Kluizen overleven nu een crash tijdens het schrijven (geen onleesbaar bestand meer), een beveiliging voorkomt het in één keer wissen van heel veel bestanden, serviceverbindingen worden hergebruikt (minder wachten en batterij), wijzigingsdatums blijven behouden, en synchroniseren stopt netjes bij een netwerkstoring in plaats van bestand voor bestand opnieuw te proberen.",
+    "de": "Zuverlässigkeits- und Leistungsupdate (nach dem Audit). Tresore überstehen jetzt einen Absturz mitten im Schreiben (keine unlesbare Datei mehr), ein Schutz verhindert das Löschen sehr vieler Dateien auf einmal, Dienstverbindungen werden wiederverwendet (weniger Warten und Akku), Änderungsdaten bleiben erhalten, und die Synchronisierung stoppt bei einem Netzwerkausfall sauber, statt Datei für Datei zu wiederholen.",
+    "it": "Aggiornamento di affidabilità e prestazioni (dopo l'audit). Le casseforti ora resistono a un'interruzione durante la scrittura (niente più file illeggibili), una protezione impedisce di cancellare moltissimi file in una volta, le connessioni ai servizi vengono riutilizzate (meno attesa e batteria), le date di modifica sono preservate e la sincronizzazione si ferma in modo pulito in caso di interruzione di rete invece di riprovare file per file."
   },
   "history": [
+    {
+      "version": "1.0.0",
+      "notes": {
+        "fr": "Sésame devient une application Mac et passe en 1.0, après un grand audit (sécurité, synchro, performance). Plus aucun secret n’est inclus dans l’app, la restauration de version OneDrive est réparée, les statistiques sont désormais désactivées par défaut, et une fenêtre propose d’installer les mises à jour au lancement. Google Drive, Box et pCloud demandent maintenant vos propres identifiants (créés sur leur site).",
+        "en": "Sesame becomes a Mac app and reaches 1.0 after a large audit (security, sync, performance). No secret is bundled in the app anymore, OneDrive version restore is fixed, statistics are now off by default, and a window offers to install updates at launch. Google Drive, Box and pCloud now ask for your own credentials (created on their site).",
+        "es": "Sesame se convierte en una app de Mac y llega a 1.0 tras una gran auditoría (seguridad, sincronización, rendimiento). Ya no se incluye ningún secreto en la app, se ha arreglado la restauración de versiones de OneDrive, las estadísticas están ahora desactivadas por defecto y una ventana propone instalar las actualizaciones al abrir. Google Drive, Box y pCloud piden ahora sus propias credenciales (creadas en su sitio).",
+        "pt": "O Sesame torna-se uma app Mac e chega à 1.0 após uma grande auditoria (segurança, sincronização, desempenho). Já não há segredos incluídos na app, a restauração de versões do OneDrive foi corrigida, as estatísticas estão agora desativadas por predefinição e uma janela propõe instalar as atualizações ao abrir. Google Drive, Box e pCloud pedem agora as suas próprias credenciais (criadas no site deles).",
+        "nl": "Sesame wordt een Mac-app en bereikt 1.0 na een grote audit (beveiliging, synchronisatie, prestaties). Er zit geen geheim meer in de app, het herstellen van OneDrive-versies is gerepareerd, statistieken staan nu standaard uit en een venster biedt aan updates bij het starten te installeren. Google Drive, Box en pCloud vragen nu je eigen inloggegevens (aangemaakt op hun site).",
+        "de": "Sesame wird eine Mac-App und erreicht 1.0 nach einem großen Audit (Sicherheit, Synchronisierung, Leistung). In der App ist kein Geheimnis mehr enthalten, die OneDrive-Versionswiederherstellung ist repariert, Statistiken sind jetzt standardmäßig aus, und ein Fenster bietet an, Updates beim Start zu installieren. Google Drive, Box und pCloud verlangen jetzt Ihre eigenen Zugangsdaten (auf deren Website erstellt).",
+        "it": "Sesame diventa un'app Mac e arriva alla 1.0 dopo un grande audit (sicurezza, sincronizzazione, prestazioni). Nell'app non è più incluso alcun segreto, il ripristino delle versioni OneDrive è corretto, le statistiche sono ora disattivate per impostazione predefinita e una finestra propone di installare gli aggiornamenti all'avvio. Google Drive, Box e pCloud ora chiedono le tue credenziali (create sul loro sito)."
+      }
+    },
     {
       "version": "0.7.2",
       "notes": {
@@ -98,18 +110,6 @@
         "it": "Più veloce: 4 file trasferiti alla volta. Più sicuro: i tuoi accessi sono conservati nel Portachiavi del Mac.",
         "nl": "Sneller: 4 bestanden tegelijk overgezet. Veiliger: uw aanmeldingen staan in de Mac-sleutelhanger.",
         "pt": "Mais rápido: 4 arquivos transferidos ao mesmo tempo. Mais seguro: suas conexões ficam nas Chaves do Mac."
-      }
-    },
-    {
-      "version": "0.5.3",
-      "notes": {
-        "fr": "Nouveau : une autre limite de débit la nuit (Réglages › Réseau et énergie), par exemple illimité de 22:00 à 07:00.",
-        "en": "New: a different speed limit at night (Settings › Network & power), for example unlimited from 22:00 to 07:00.",
-        "de": "Neu: eine andere Geschwindigkeitsgrenze in der Nacht (Einstellungen › Netz und Energie), z. B. unbegrenzt von 22:00 bis 07:00.",
-        "es": "Novedad: otro límite de velocidad por la noche (Ajustes › Red y energía), por ejemplo sin límite de 22:00 a 07:00.",
-        "it": "Novità: un altro limite di velocità di notte (Impostazioni › Rete ed energia), ad esempio illimitato dalle 22:00 alle 07:00.",
-        "nl": "Nieuw: een ander snelheidslimiet 's nachts (Instellingen › Netwerk en energie), bijvoorbeeld onbeperkt van 22:00 tot 07:00.",
-        "pt": "Novidade: outro limite de velocidade à noite (Ajustes › Rede e energia), por exemplo sem limite das 22:00 às 07:00."
       }
     }
   ]
