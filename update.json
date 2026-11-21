@@ -1,21 +1,33 @@
 {
-  "version": "1.0.2",
-  "build": 17,
+  "version": "1.0.3",
+  "build": 18,
   "minimum_macos": "13.0",
-  "url": "https://github.com/xavier38/sesame/releases/download/v1.0.2/Sesame.zip",
-  "size": 34843624,
-  "sha256": "3434a9a2fd75692923bbf97d6cfaf8b7ddafb4cf7cb41bf559f1b5e42c1a1b54",
-  "signature": "mXpb3EFKHxsv2xLuAHRBNgeqq9cfpYT6BfGzvsEtItUWcW/g7nLwsdbSE5+HPb9jaJOKy+7KCbOInGoA8dbPAQ==",
+  "url": "https://github.com/xavier38/sesame/releases/download/v1.0.3/Sesame.zip",
+  "size": 34936506,
+  "sha256": "9f553d611bb8dba0cbff122f91dbecb174086f8edcd820f901e973669644c0ce",
+  "signature": "0p9q6M1E9qWVP3IziI1hCcIWq5rFEVV2of4C9PDdDOLm+/Wd+kve5kZe4K8sondvRbhtwPZS2yPrGHGFk3+OAQ==",
   "notes": {
-    "fr": "Version de maintenance : numéro de version suivant, pour suivre les versions installées. Aucun changement visible.",
-    "en": "Maintenance release: next version number, to keep track of installed versions. No visible change.",
-    "es": "Versión de mantenimiento: siguiente número de versión, para seguir las versiones instaladas. Sin cambios visibles.",
-    "pt": "Versão de manutenção: número de versão seguinte, para acompanhar as versões instaladas. Sem alterações visíveis.",
-    "nl": "Onderhoudsversie: volgend versienummer, om geïnstalleerde versies te kunnen volgen. Geen zichtbare wijziging.",
-    "de": "Wartungsversion: nächste Versionsnummer, um installierte Versionen nachverfolgen zu können. Keine sichtbare Änderung.",
-    "it": "Versione di manutenzione: numero di versione successivo, per seguire le versioni installate. Nessuna modifica visibile."
+    "fr": "Historique et récupération : dans Activité, « Restaurer… » propose les versions d’un fichier (celles du service quand il en garde, sinon les copies gardées par Sesame) sans jamais écraser la version actuelle, et « Fichiers supprimés » permet de les récupérer. Conflits : une notification « Conflit sur … » propose directement Garder celui du Mac, celui du cloud ou les deux, choix aussi disponible dans « À traiter » ; Sesame vérifie que rien n’a changé avant d’appliquer et ne perd jamais aucun des deux côtés.",
+    "en": "History and recovery: in Activity, “Restore…” offers a file’s versions (the service’s own when it keeps them, otherwise the copies kept by Sesame) without ever overwriting the current one, and “Deleted files” lets you get them back. Conflicts: a “Conflict on …” notification directly offers Keep the Mac’s, the cloud’s or both, also available in “To do”; Sesame checks nothing changed before applying and never loses either side.",
+    "es": "Historial y recuperación: en Actividad, «Restaurar…» propone las versiones de un archivo (las del servicio cuando las guarda, si no las copias guardadas por Sesame) sin sobrescribir nunca la actual, y «Archivos eliminados» permite recuperarlos. Conflictos: una notificación «Conflicto en …» ofrece directamente Conservar el del Mac, el de la nube o ambos, también en «Pendiente»; Sesame comprueba que nada ha cambiado antes de aplicar y nunca pierde ninguno de los dos lados.",
+    "pt": "Histórico e recuperação: em Atividade, «Restaurar…» propõe as versões de um ficheiro (as do serviço quando as guarda, senão as cópias guardadas pelo Sesame) sem nunca substituir a atual, e «Ficheiros apagados» permite recuperá-los. Conflitos: uma notificação «Conflito em …» propõe logo Manter o do Mac, o da nuvem ou os dois, também em «A tratar»; o Sesame verifica que nada mudou antes de aplicar e nunca perde nenhum dos lados.",
+    "nl": "Geschiedenis en herstel: in Activiteit biedt ‘Herstellen…’ de versies van een bestand (die van de dienst als die ze bewaart, anders de kopieën die Sesame bewaarde) zonder de huidige ooit te overschrijven, en met ‘Verwijderde bestanden’ haal je ze terug. Conflicten: een melding ‘Conflict bij …’ biedt meteen Die van de Mac houden, die van de cloud of beide, ook in ‘Te doen’; Sesame controleert dat er niets veranderd is en verliest nooit een van beide kanten.",
+    "de": "Verlauf und Wiederherstellung: In Aktivität bietet „Wiederherstellen …“ die Versionen einer Datei an (die des Dienstes, wenn er welche hat, sonst die von Sesame aufbewahrten Kopien), ohne die aktuelle je zu überschreiben, und „Gelöschte Dateien“ holt sie zurück. Konflikte: Eine Mitteilung „Konflikt bei …“ bietet direkt Die vom Mac behalten, die aus der Cloud oder beide an, auch unter „Zu erledigen“; Sesame prüft vorher, dass sich nichts geändert hat, und verliert nie eine Seite.",
+    "it": "Cronologia e recupero: in Attività, «Ripristina…» propone le versioni di un file (quelle del servizio quando le conserva, altrimenti le copie tenute da Sesame) senza mai sovrascrivere quella attuale, e «File eliminati» permette di recuperarli. Conflitti: una notifica «Conflitto su …» propone subito Tieni quello del Mac, quello del cloud o entrambi, anche in «Da fare»; Sesame verifica che nulla sia cambiato prima di applicare e non perde mai nessuno dei due lati."
   },
   "history": [
+    {
+      "version": "1.0.2",
+      "notes": {
+        "fr": "Version de maintenance : numéro de version suivant, pour suivre les versions installées. Aucun changement visible.",
+        "en": "Maintenance release: next version number, to keep track of installed versions. No visible change.",
+        "es": "Versión de mantenimiento: siguiente número de versión, para seguir las versiones instaladas. Sin cambios visibles.",
+        "pt": "Versão de manutenção: número de versão seguinte, para acompanhar as versões instaladas. Sem alterações visíveis.",
+        "nl": "Onderhoudsversie: volgend versienummer, om geïnstalleerde versies te kunnen volgen. Geen zichtbare wijziging.",
+        "de": "Wartungsversion: nächste Versionsnummer, um installierte Versionen nachverfolgen zu können. Keine sichtbare Änderung.",
+        "it": "Versione di manutenzione: numero di versione successivo, per seguire le versioni installate. Nessuna modifica visibile."
+      }
+    },
     {
       "version": "1.0.1",
       "notes": {
@@ -98,18 +110,6 @@
         "it": "Quando è pronta una nuova versione, compare in cima al menu di Sesame: un clic propone di installarla subito.",
         "nl": "Staat er een nieuwe versie klaar, dan verschijnt die helemaal bovenaan in het Sesame-menu: één klik biedt aan hem meteen te installeren.",
         "pt": "Quando há uma nova versão, ela aparece no topo do menu do Sesame: um clique propõe instalá-la na hora."
-      }
-    },
-    {
-      "version": "0.6.1",
-      "notes": {
-        "fr": "Le moteur s'arrête proprement quand vous quittez Sesame ou qu'une mise à jour s'installe.",
-        "en": "The engine now stops cleanly when you quit Sesame or an update installs.",
-        "de": "Die Synchronisierung wird jetzt sauber beendet, wenn Sie Sesame beenden oder ein Update installiert wird.",
-        "es": "El motor se detiene correctamente al salir de Sesame o al instalarse una actualización.",
-        "it": "Il motore ora si arresta correttamente quando esci da Sesame o si installa un aggiornamento.",
-        "nl": "De synchronisatie stopt nu netjes wanneer u Sesame afsluit of een update wordt geïnstalleerd.",
-        "pt": "O mecanismo agora para corretamente ao sair do Sesame ou ao instalar uma atualização."
       }
     }
   ]
